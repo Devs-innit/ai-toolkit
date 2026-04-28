@@ -4,8 +4,8 @@
  **Technology chosen:** Python +OpenRouter API +OpenAI library + Mistral-small-3.1-24b model
 
  **Why I chose it:** I chose this as an absolute beginner developer as I wanted to apply what i had learnt to comprehend
-  how GenAI tools work to my advantage in boosting productivity,learning and skills.This project helped me realize that
-  AI isn't just magic...no,it's powered by structured API calls and well designed prompts.
+  how GenAI tools work to my advantage in boosting productivity, learning and skills.This project helped me realize that
+  AI isn't just magic...no, it's powered by structured API calls and well designed prompts.
 
  **What it does:**I built a simple command-line AI coding assistant that accepts user questions and sends it to the  (BRAIN)
   OpenRouter API. Using a securely loaded API key,the request is passed to the Mistral model, which processes it using my system 
@@ -19,12 +19,12 @@
 
 
 ## 2. Quick Summary of the Technology
- **What is Python?:** I used Python as the programming language to build and control my application. It allowed me 
+ **What is Python?: ** I used Python as the programming language to build and control my application. It allowed me 
    to send requests to APIs, process the responses and manage the flow of data in a simple and efficient way.
 
 **What is an API and which API did I use?** An API is the connection to a 'brain'- rather, it acts like a nervous system 
   between my code and an AI model. Using a securely loaded API key,my program sends a request(question) through the 
-  API to the AI model(the 'brain'),and the API then returns the answer to the user(me). In my project, I used
+  API to the AI model (the 'brain'),and the API then returns the answer to the user(me). In my project, I used
   OpenRouter as the API service to connect to an AI model.
 
   For example,when I input a question like,'What is python?', my program sends it through the API to the AI model and displays
@@ -229,5 +229,5 @@ openrouter.ai/models
 - OpenAI library: https://pypi.org/project/openai
 - Git: https://git-scm.com
 
-This project demonstrates how beginner developers can integrate AI into simple applications using APIs,while following best practices 
+This project demonstrates how beginner developers can integrate AI into simple applications using APIs, while following best practices 
 for security and structure.
